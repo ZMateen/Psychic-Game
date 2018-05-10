@@ -14,7 +14,7 @@ var numberGuess = document.getElementById('numberGuess');
  
 var guessChoices = [];
 
-// User can press any key and get it to show up on screen
+// User should be able to press any key and get it to show up on screen
 document.onkeyup = function (event) {
     var userGuess = event.key;
     var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
